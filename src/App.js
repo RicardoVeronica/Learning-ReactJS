@@ -1,7 +1,13 @@
+// import CounterApp from "./components/CounterApp";
+// import ConditionalApp from "./components/ConditionalApp";
+import ShoppingCart from "./components/ShoppingCart";
+
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      {/* <CounterApp /> */}
+      {/* <ConditionalApp /> */}
+      <ShoppingCart />
     </>
   );
 }
