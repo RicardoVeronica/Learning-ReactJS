@@ -1,7 +1,11 @@
+// import LifeCycle from "./components/LifeCycle";
+import FetchCard from "./components/FetchCard";
+
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      {/* <LifeCycle /> */}
+      <FetchCard />
     </>
   );
 }
