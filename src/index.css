@@ -1,0 +1,29 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #21232A;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: steelblue;
+  border: 1px solid slateblue;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: steelblue;
+  cursor: pointer;
+}

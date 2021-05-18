@@ -1,9 +1,15 @@
-function App() {
+import PropTypes from 'prop-types'
+
+const App = ({technology, type = 'component'}) => {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
-  );
+    <div>
+      <h1>Hello {technology} from App {type}</h1>
+    </div>
+  )
 }
 
-export default App;
+App.propTypes = {
+  technology: PropTypes.string.isRequired
+}
+
+export default App
