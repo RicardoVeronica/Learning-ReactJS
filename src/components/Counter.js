@@ -8,9 +8,9 @@ const Counter = ({ value }) => {
     <div>
       <h1>Counter app</h1>
       <h2>{ counter }</h2>
-      <button onClick={() => {setCounter(counter + 1)}}>Add</button>
-      <button onClick={() => {setCounter(counter - 1)}}>Sub</button>
-      <button onClick={() => {setCounter(counter - counter)}}>Reset</button>
+      <button onClick={ () => setCounter(counter + 1) }>Add</button>
+      <button onClick={ () => setCounter(counter - 1) }>Sub</button>
+      <button onClick={ () => setCounter(counter - counter) }>Reset</button>
     </div>
   )
 }
